@@ -1,0 +1,15 @@
+# Generic
+.DS_Store
+node_modules/
+.env
+__pycache__/
+*.pyc
+dist/
+build/
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
