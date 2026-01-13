@@ -3,6 +3,7 @@ from src.main import app
 
 client = TestClient(app)
 
+
 def test_root_returns_hello():
     resp = client.get("/")
     assert resp.status_code == 200
